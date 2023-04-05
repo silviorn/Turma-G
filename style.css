@@ -1,4 +1,20 @@
-header {
-    background-image: linear-gradient(#3A1078, #4E31AA, #2F58CD, #3795BD;) 
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho {
+    background-image: linear-gradient(#3A1078, #4E31AA, #2F58CD, #3795BD); 
+    color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.cabeçalho-logo{
+    width: 20%;
+    height: 20%;
+}
+
+.cabeçalho-itens{
+font-size: 20px;
+margin: 10px;
+display: inline-block;
 }
