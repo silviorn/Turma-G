@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: verdana, sans-serif;
+}
 .cabeçalho {
     background-color: #3A1078; 
     color:#ffffff;
@@ -33,4 +37,13 @@ padding-right: 30px;
     color:#ffffff;
     font-size: 48px;
     padding-top: 100px;
+}
+.galeria-titulo{
+    background-color: #2F58CD;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 40px;
+    height: 200px;
+    display:flex;
 }
